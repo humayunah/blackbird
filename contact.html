@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" src="./assets/pngegg.png" />
+    <link rel="stylesheet" href="./dist/css/normalize.css" />
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <script src="./dist/js/script.js" defer></script>
+
+    <title>BlackBird Technologies - Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container nav">
+        <img
+          src="./assets/pngegg.png"
+          alt="myteam logo"
+          class="logo"
+          style="height: 68px"
+          aria-label="my team"
+        />
+        <ul>
+          <li class="link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="link">
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="btn btn--primary--lt">
+              <span> Contact Us </span>
+            </a>
+          </li>
+        </ul>
+
+        <img
+          src="./assets/icon-hamburger.svg"
+          alt="hamburger menu icon"
+          class="hamburger"
+        />
+      </nav>
+      <div class="mobile-nav">
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="btn btn--primary--lt">
+              Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="contact">
+      <div class="container">
+        <div class="contact__info">
+          <h1>Contact</h1>
+          <h2>Ask us about</h2>
+
+          <div class="contact__info__container">
+            <div class="contact__info__info">
+              <img
+                src="./assets/machine-learning-01-svgrepo-com.svg"
+                style="height: 60px; fill: rgb(217, 224, 230)"
+                alt="person icon"
+              />
+              <p class="lg">The quality of our talent network</p>
+            </div>
+            <div class="contact__info__info">
+              <img
+                src="./assets/virtual-reality-svgrepo-com.svg"
+                style="
+                  height: 60px;
+                  background-color: #79c8c7 stroke=none;
+                  fill: aliceblue;
+                "
+                alt="cog icon"
+              />
+              <p class="lg">Usage & implementation of our software</p>
+            </div>
+            <div class="contact__info__info">
+              <img
+                src="./assets/blockchain-svgrepo-com.svg"
+                style="height: 60px; background-color: #79c8c7 stroke=none"
+                alt="chart icon"
+              />
+              <p class="lg">How we help drive innovation</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form" autocomplete="off" novalidate>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="name"
+            autocomplete="off"
+          />
+          <small>this field is required</small>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email address"
+            autocomplete="off"
+          />
+          <small>this field is required</small>
+          <input
+            type="text"
+            name="company"
+            placeholder="company name"
+            autocomplete="off"
+          />
+          <input
+            type="text"
+            name="title"
+            placeholder="title"
+            autocomplete="off"
+          />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="4"
+            placeholder="Message"
+          ></textarea>
+          <small>this field is required</small>
+          <button type="submit" class="btn btn--secondary">
+            <span> Submit</span>
+          </button>
+          <small>thank you for your message!</small>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__footer">
+        <div class="container">
+          <div class="footer__nav">
+            <img
+              src="./assets/logo.svg"
+              alt="myteam logo"
+              class="logo"
+              aria-label="my team"
+            />
+            <ul>
+              <li>
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./about.html">About</a>
+              </li>
+            </ul>
+            <p class="sm">
+              987 Hillcrest Lane
+              <br />
+              Irvine, CA
+              <br />
+              California 92714
+              <br />
+              Call Us : 949-833-7432
+            </p>
+          </div>
+
+          <div class="footer__info">
+            <ul class="social">
+              <li>
+                <a href="https://www.facebook.com"
+                  ><img
+                    src="./assets/icon-facebook.svg"
+                    alt="facebook icon"
+                    aria-label="facebook link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.com"
+                  ><img
+                    src="./assets/icon-pinterest.svg"
+                    alt="pinterest icon"
+                    aria-label="pinterest link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com"
+                  ><img
+                    src="./assets/icon-twitter.svg"
+                    alt="twitter icon"
+                    aria-label="twitter link"
+                /></a>
+              </li>
+            </ul>
+            <p class="sm copyright">Copyright 2020. All Rights Reserved</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
