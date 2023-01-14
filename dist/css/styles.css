@@ -120,7 +120,7 @@ li.link a:after {
 }
 
 li.link a:hover {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 li.link a:hover:after {
@@ -243,7 +243,7 @@ li.link a:hover:after {
 .home__mainContent__heading span {
     width: 3.125rem;
     height: 0.25rem;
-    background-color: #f67e7e;
+    background-color: #ff9506;
     margin-bottom: 2rem;
 }
 
@@ -289,7 +289,7 @@ li.link a:hover:after {
 }
 
 .home__mainContent__features__feature__text h3 {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 .home .successStories {
@@ -474,7 +474,7 @@ li.link a:hover:after {
 }
 
 .about .directors .container .grid .card__container.flipped .card__btn:hover {
-    background-color: #f67e7e;
+    background-color: #ff9506;
 }
 
 .about .directors .container .grid .card__container.flipped .card__btn img {
@@ -604,7 +604,7 @@ li.link a:hover:after {
 .about .directors .container .grid .card__container .card__btn {
     width: 3.5rem;
     height: 3.5rem;
-    background-color: #f67e7e;
+    background-color: #ff9506;
     border-radius: 50%;
     position: absolute;
     display: -webkit-box;
@@ -716,7 +716,7 @@ li.link a:hover:after {
 .contact .container h2 {
     font-size: 2rem;
     line-height: 3rem;
-    color: #f67e7e;
+    color: #ff9506;
     margin-bottom: 1.125rem;
 }
 
@@ -807,7 +807,7 @@ li.link a:hover:after {
 .contact__form small {
     display: none;
     position: relative;
-    color: #f67e7e;
+    color: #ff9506;
     left: 1rem;
     font-size: 0.625rem;
     -webkit-transition: left 0.5s ease-in-out, right 0.5s ease-in-out;
@@ -879,32 +879,32 @@ li.link a:hover:after {
 
 .contact__form input.error,
 .contact__form textarea.error {
-    border-color: #f67e7e;
+    border-color: #ff9506;
 }
 
 .contact__form input.error::-webkit-input-placeholder,
 .contact__form textarea.error::-webkit-input-placeholder {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 .contact__form input.error::-moz-placeholder,
 .contact__form textarea.error::-moz-placeholder {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 .contact__form input.error:-ms-input-placeholder,
 .contact__form textarea.error:-ms-input-placeholder {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 .contact__form input.error::-ms-input-placeholder,
 .contact__form textarea.error::-ms-input-placeholder {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 .contact__form input.error::placeholder,
 .contact__form textarea.error::placeholder {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 .contact__form input.error + small,
@@ -1062,12 +1062,12 @@ header .hero h1 {
 }
 
 header .hero h1 span {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 .footer .cta {
     min-height: 12.5rem;
-    background-color: #f67e7e;
+    background-color: #ff9506;
     background-image: url(../../assets/bg-pattern-home-6-about-5.svg);
     background-repeat: no-repeat;
     background-position: left calc(100% + 22px);
@@ -1156,7 +1156,7 @@ header .hero h1 span {
 }
 
 .footer__footer .container .footer__nav ul li a:hover {
-    color: #f67e7e;
+    color: #ff9506;
 }
 
 .footer__footer .container .footer__nav p {
@@ -1555,7 +1555,7 @@ header .hero h1 span {
     header .hero--about__text div span {
         width: 3.125rem;
         height: 0.25rem;
-        background-color: #f67e7e;
+        background-color: #ff9506;
     }
     header .hero--about__text div p {
         font-size: 1.125rem;
