@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" sizes="32x32" src="./assets/pngegg.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      src="./assets/techgoat-high-resolution-logo-color-on-transparent-background.png"
+    />
     <link rel="stylesheet" href="./dist/css/normalize.css" />
     <link rel="stylesheet" href="./dist/css/styles.css" />
     <link
@@ -13,26 +18,30 @@
     />
     <script src="./dist/js/script.js" defer></script>
 
-    <title>BlackBird Technologies - Homepage</title>
+    <title>TechGoat - Homepage</title>
   </head>
   <body>
     <header>
       <nav class="container nav animate__animated animate__fadeInLeft">
         <a href="./index.html">
           <img
-            src="./assets/pngegg.png"
+            src="./assets/techgoat-high-resolution-logo-color-on-transparent-background.png"
             alt="myteam logo"
             class="logo"
-            style="height: 68px"
+            style="height: 96px"
             aria-label="my team"
           />
+          <!-- <span>TECHGOAT</span> -->
         </a>
         <ul>
           <li class="link">
             <a href="./index.html">Home</a>
           </li>
           <li class="link">
-            <a href="./about.html">About</a>
+            <a href="#services">Services</a>
+          </li>
+          <li class="link">
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="./contact.html" class="btn btn--primary--lt">
@@ -52,6 +61,9 @@
           <li>
             <a href="./index.html">Home</a>
           </li>
+          <li class="link">
+            <a href="#services">Services</a>
+          </li>
           <li>
             <a href="./about.html">About</a>
           </li>
@@ -65,7 +77,16 @@
 
       <section class="hero hero--home animate__animated animate__fadeInLeft">
         <div class="container hero--home__text hero__text">
-          <h1>We Engineer <span>Software</span> Solutions</h1>
+          <h1>
+            We Engineer
+            <span
+              style="display: block"
+              class="txt-rotate"
+              data-period="2000"
+              data-rotate='[ "AI/ML", "Blockchain", "AR/VR"]'
+            ></span>
+            Solutions
+          </h1>
 
           <div>
             <span></span>
@@ -79,7 +100,7 @@
       </section>
     </header>
 
-    <main class="home animate__animated animate__fadeInRight">
+    <main id="services" class="home animate__animated animate__fadeInRight">
       <section class="home__mainContent">
         <div class="container container--narrow">
           <div class="home__mainContent__heading">
@@ -139,119 +160,26 @@
         </div>
       </section>
     </main>
-    <main class="about animate__animated animate__fadeInUp">
-      <section class="clients">
-        <div class="container">
-          <h2>Some of our clients</h2>
-          <div class="clients__logos">
-            <img
-              src="./assets/logo-the-verge.png"
-              alt="the verge logo"
-              id="verge"
-            />
 
-            <img
-              src="./assets/logo-jakarta-post.png"
-              alt="jakarta logo"
-              id="jakarta"
-            />
-            <img
-              src="./assets/logo-the-guardian.png"
-              alt="the guardian logo"
-              id="guardian"
-            />
-            <img
-              src="./assets/logo-tech-radar.png"
-              alt="tech radar logo"
-              id="tech"
-            />
-            <img
-              src="./assets/logo-gadgets-now.png"
-              alt="gadgets now logo"
-              id="gadgets"
-            />
+    <header id="about">
+      <section class="hero hero--about">
+        <div class="container container--narrow hero--about__text hero__text">
+          <h1 class="lg">About</h1>
+
+          <div>
+            <span></span>
+            <p class="sm--tall">
+              TechGoat is driven to create lasting, valuable solutions for our
+              clients, utilizing the latest in Artificial Intelligence, AR/VR,
+              and Blockchain technologies. We are committed to develop
+              innovative software solutions for leading enterprises in the
+              world, helping them grow their businesses using latest technology
+              solutions.
+            </p>
           </div>
         </div>
       </section>
-    </main>
-    <main class="home animate__animated animate__slideInUp">
-      <section class="successStories">
-        <div class="container container--narrow">
-          <h2>
-            Delivering real results for top companies. Some of our
-            <span> success stories. </span>
-          </h2>
-          <div class="reviews">
-            <div class="review">
-              <img
-                src="./assets/icon-quotes.svg"
-                alt="quotes icon"
-                class="quotes"
-              />
-              <p class="sm">
-                “The team perfectly fit the specialized skill set required. They
-                focused on the most essential features helping us launch the
-                platform eight months faster than planned.”
-              </p>
-
-              <div class="reviewer">
-                <h3>Kady Baker</h3>
-                <small> Product Manager at Bookmark </small>
-                <img
-                  src="./assets/avatar-kady.jpg"
-                  alt="kady baker photo"
-                  class="avatar"
-                />
-              </div>
-            </div>
-            <div class="review">
-              <img
-                src="./assets/icon-quotes.svg"
-                alt="quotes icon"
-                class="quotes"
-              />
-              <p class="sm">
-                “We needed to automate our entire onboarding process. The team
-                came in and built out the whole journey. Since going live, user
-                retention has gone through the roof!”
-              </p>
-
-              <div class="reviewer">
-                <h3>Aiysha Reese</h3>
-                <small> Founder of Manage </small>
-                <img
-                  src="./assets/avatar-aiysha.jpg"
-                  alt="aiysha resse photo"
-                  class="avatar"
-                />
-              </div>
-            </div>
-            <div class="review">
-              <img
-                src="./assets/icon-quotes.svg"
-                alt="quotes icon"
-                class="quotes"
-              />
-              <p class="sm">
-                “Amazing. Our team helped us build an app that delivered a new
-                experience for hiring a physio. The launch was an instant
-                success with 100k downloads in the first month.”
-              </p>
-
-              <div class="reviewer">
-                <h3>Arthur Clarke</h3>
-                <small> Co-founder of MyPhysio </small>
-                <img
-                  src="./assets/avatar-arthur.jpg"
-                  alt="arthur clarke photo"
-                  class="avatar"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    </header>
 
     <footer class="footer">
       <section class="cta">
@@ -265,21 +193,13 @@
       <section class="footer__footer">
         <div class="container">
           <div class="footer__nav">
-            <!-- <img
-              src="./assets/logo.svg"
+            <img
+              src="./assets/techgoat-high-resolution-logo-color-on-transparent-background.png"
               alt="myteam logo"
               class="logo"
+              style="height: 96px; margin-bottom: 16px"
               aria-label="my team"
-            /> -->
-            <h4 style="color: aliceblue">BlackBird Technologies</h4>
-            <ul>
-              <li>
-                <a href="./index.html">Home</a>
-              </li>
-              <li>
-                <a href="./about.html">About</a>
-              </li>
-            </ul>
+            />
             <p class="sm">
               987 Hillcrest Lane
               <br />
